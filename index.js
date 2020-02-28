@@ -16,4 +16,5 @@ function mapToDouble(array) {
   for (const element of array) {
     newArray.push(element * 2);
   }
+  return newArray;
 }
