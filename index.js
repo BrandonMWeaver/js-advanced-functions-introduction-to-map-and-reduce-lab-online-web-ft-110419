@@ -36,5 +36,10 @@ function reduceToTotal(array, start = 0) {
 }
 
 function reduceToAllTrue(array) {
-  for 
+  for (const element of array) {
+    if (!element) {
+      return false;
+    }
+  }
+  return true;
 }
