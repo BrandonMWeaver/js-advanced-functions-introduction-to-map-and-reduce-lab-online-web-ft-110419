@@ -5,3 +5,8 @@ function mapToNegativize(array) {
   }
   return newArray;
 }
+
+function mapToNoChange(array) {
+  let newArray = array;
+  return newArray;
+}
