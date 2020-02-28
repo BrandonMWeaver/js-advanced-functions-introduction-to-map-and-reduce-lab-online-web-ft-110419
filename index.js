@@ -18,3 +18,11 @@ function mapToDouble(array) {
   }
   return newArray;
 }
+
+function mapToSquare(array) {
+  let newArray = [];
+  for (const element of array) {
+    newArray.push(element * element);
+  }
+  return newArray;
+}
