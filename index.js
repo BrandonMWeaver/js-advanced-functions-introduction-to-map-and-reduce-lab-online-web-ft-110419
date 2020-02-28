@@ -10,3 +10,10 @@ function mapToNoChange(array) {
   let newArray = array;
   return newArray;
 }
+
+function mapToDouble(array) {
+  let newArray = [];
+  for (const element of array) {
+    newArray.push(element * 2);
+  }
+}
