@@ -29,8 +29,12 @@ function mapToSquare(array) {
 
 function reduceToTotal(array, start = 0) {
   let total = start;
-  for (let i = 0; i < array.length; i++) {
-    total += array[i];
+  for (const element of array) {
+    total += element;
   }
   return total;
+}
+
+function reduceToAllTrue(array) {
+  for 
 }
