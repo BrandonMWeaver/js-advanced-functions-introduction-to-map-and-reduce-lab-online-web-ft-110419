@@ -43,3 +43,12 @@ function reduceToAllTrue(array) {
   }
   return true;
 }
+
+function reduceToAnyTrue(array) {
+  for (const element of array) {
+    if (element) {
+      return true;
+    }
+  }
+  return false;
+}
